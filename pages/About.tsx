@@ -5,7 +5,7 @@ const About: React.FC = () => {
     <div className="pt-24 min-h-screen container mx-auto px-6 pb-20">
       {/* Header Section */}
       <div className="mb-12">
-        <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 font-[Orbitron]">ABOUT ME</h2>
+        <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 font-[Outfit]">ABOUT ME</h2>
         <div className="w-20 h-1 bg-gradient-to-r from-cyan-500 to-fuchsia-500 mb-6"></div>
       </div>
 
@@ -17,17 +17,17 @@ const About: React.FC = () => {
               {/* <div className="w-12 h-12 bg-gradient-to-br from-cyan-500 to-fuchsia-500 rounded-lg flex items-center justify-center">
                 <span className="text-2xl">👨‍💻</span>
               </div> */}
-              <h3 className="text-2xl font-bold text-white font-[Orbitron]">Professional Summary</h3>
+              <h3 className="text-2xl font-bold text-white font-[Outfit]">Professional Summary</h3>
             </div>
-            
+
             <p className="text-slate-300 leading-relaxed mb-4">
               I am a passionate and results-driven <span className="text-cyan-400 font-bold">AI Engineer and Data Analyst</span> with a strong foundation in Machine Learning, Python, and Tableau BI, committed to converting raw data into actionable insights and intelligent automation.
             </p>
-            
+
             <p className="text-slate-300 leading-relaxed mb-4">
               I specialize in building data-driven solutions using <span className="text-fuchsia-400 font-bold">SQL (MySQL), NoSQL (MongoDB), and FastAPI</span>, along with expertise in developing and integrating AI agents into real-world applications to enhance automation and decision-making capabilities.
             </p>
-            
+
             <p className="text-slate-300 leading-relaxed">
               With practical experience in frontend development using <span className="text-cyan-400 font-bold">React.js and Redux</span>, I've successfully delivered and deployed dynamic web applications by integrating RESTful APIs for optimal performance and user experience. I also ensure smooth collaboration and code quality through version control with Git and GitHub.
             </p>
@@ -39,9 +39,9 @@ const About: React.FC = () => {
               {/* <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg flex items-center justify-center">
                 <span className="text-2xl">🚀</span>
               </div> */}
-              <h3 className="text-2xl font-bold text-white font-[Orbitron]">Current Role</h3>
+              <h3 className="text-2xl font-bold text-white font-[Outfit]">Current Role</h3>
             </div>
-            
+
             <div className="border-l-4 border-cyan-500 pl-6">
               <h4 className="text-xl font-bold text-cyan-400 mb-2">AI Engineer @ Spearsoft</h4>
               <p className="text-slate-400 mb-4">Building intelligent systems and automation solutions</p>
@@ -60,16 +60,16 @@ const About: React.FC = () => {
               {/* <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-teal-500 rounded-lg flex items-center justify-center">
                 <span className="text-2xl">🎓</span>
               </div> */}
-              <h3 className="text-2xl font-bold text-white font-[Orbitron]">Education</h3>
+              <h3 className="text-2xl font-bold text-white font-[Outfit]">Education</h3>
             </div>
-            
+
             <div className="space-y-6">
               <div className="border-l-4 border-fuchsia-500 pl-6">
                 <h4 className="text-lg font-bold text-white">B.Tech in Computer Science (Data Science)</h4>
                 <p className="text-cyan-400">Mahatma Gandhi Institute of Technology – JNTUH</p>
                 <p className="text-slate-400 text-sm">Graduated: July 2024 | CGPA: 7.49</p>
               </div>
-              
+
               <div className="border-l-4 border-purple-500 pl-6">
                 <h4 className="text-lg font-bold text-white">Diploma in Computer Engineering</h4>
                 <p className="text-cyan-400">Bomma Institute of Technology and Science – SBTET</p>
@@ -83,8 +83,8 @@ const About: React.FC = () => {
         <div className="space-y-6">
           {/* Technical Skills */}
           <div className="glass p-6 rounded-2xl border border-slate-700">
-            <h3 className="text-xl font-bold text-white mb-4 font-[Orbitron]">Tech Stack</h3>
-            
+            <h3 className="text-xl font-bold text-white mb-4 font-[Outfit]">Tech Stack</h3>
+
             <div className="space-y-4">
               <div>
                 <h4 className="text-sm font-bold text-cyan-400 mb-2">Languages</h4>
@@ -141,7 +141,7 @@ const About: React.FC = () => {
 
           {/* Achievements */}
           <div className="glass p-6 rounded-2xl border border-slate-700">
-            <h3 className="text-xl font-bold text-white mb-4 font-[Orbitron]">Achievements</h3>
+            <h3 className="text-xl font-bold text-white mb-4 font-[Outfit]">Achievements</h3>
             <div className="space-y-4">
               <div className="flex items-start gap-3">
                 <span className="text-2xl">🏆</span>
@@ -166,7 +166,7 @@ const About: React.FC = () => {
 
           {/* Soft Skills */}
           <div className="glass p-6 rounded-2xl border border-slate-700">
-            <h3 className="text-xl font-bold text-white mb-4 font-[Orbitron]">Soft Skills</h3>
+            <h3 className="text-xl font-bold text-white mb-4 font-[Outfit]">Soft Skills</h3>
             <div className="space-y-3">
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-cyan-500 rounded-full"></div>
@@ -185,7 +185,7 @@ const About: React.FC = () => {
 
           {/* Contact Info */}
           <div className="glass p-6 rounded-2xl border border-slate-700">
-            <h3 className="text-xl font-bold text-white mb-4 font-[Orbitron]">Connect</h3>
+            <h3 className="text-xl font-bold text-white mb-4 font-[Outfit]">Connect</h3>
             <div className="space-y-3">
               <a href="mailto:palvaiajay4730@gmail.com" className="flex items-center gap-3 text-slate-300 hover:text-cyan-400 transition-colors">
                 <span className="text-xl">📧</span>

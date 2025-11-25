@@ -53,7 +53,7 @@ const Home: React.FC = () => {
             AJAY PALVAI
           </h1>
 
-          <h2 className="text-2xl md:text-3xl font-[Orbitron] text-cyan-400 h-8 neon-text-cyan">
+          <h2 className="text-2xl md:text-3xl font-[Outfit] text-cyan-400 h-8 neon-text-cyan">
             {text}<span className="animate-pulse border-r-4 border-fuchsia-500 ml-1"> </span>
           </h2>
 
@@ -68,7 +68,7 @@ const Home: React.FC = () => {
             >
               <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-cyan-600 to-blue-600 opacity-80 group-hover:opacity-100"></div>
               <div className="absolute inset-0 w-full h-full bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0IiBoZWlnaHQ9IjQiPgo8cmVjdCB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSIjZmZmIiBmaWxsLW9wYWNpdHk9IjAuMSIvPgo8L3N2Zz4=')] opacity-30"></div>
-              <span className="relative text-white font-bold font-[Orbitron] tracking-widest flex items-center gap-2">
+              <span className="relative text-white font-bold font-[Outfit] tracking-widest flex items-center gap-2">
                 VIEW PROJECTS <span className="group-hover:translate-x-1 transition-transform">→</span>
               </span>
             </a>
@@ -96,7 +96,7 @@ const Home: React.FC = () => {
                 <PolarGrid stroke="rgba(232, 121, 249, 0.3)" />
                 <PolarAngleAxis
                   dataKey="subject"
-                  tick={{ fill: '#22d3ee', fontSize: 10, fontFamily: 'Orbitron' }}
+                  tick={{ fill: '#22d3ee', fontSize: 10, fontFamily: 'Outfit' }}
                 />
                 <Radar
                   name="Skills"
@@ -115,7 +115,7 @@ const Home: React.FC = () => {
       {/* About Section */}
       <section id="about" className="container mx-auto px-6 py-20">
         <div className="mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 font-[Orbitron]">ABOUT ME</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 font-[Outfit]">ABOUT ME</h2>
           <div className="w-20 h-1 bg-gradient-to-r from-cyan-500 to-fuchsia-500 mb-6"></div>
         </div>
 
@@ -125,7 +125,7 @@ const Home: React.FC = () => {
               <div className="w-12 h-12 bg-gradient-to-br from-cyan-500 to-fuchsia-500 rounded-lg flex items-center justify-center">
                 <span className="text-2xl">👨‍💻</span>
               </div>
-              <h3 className="text-2xl font-bold text-white font-[Orbitron]">Professional Summary</h3>
+              <h3 className="text-2xl font-bold text-white font-[Outfit]">Professional Summary</h3>
             </div>
 
             <p className="text-slate-300 leading-relaxed mb-4">
@@ -142,7 +142,7 @@ const Home: React.FC = () => {
               <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg flex items-center justify-center">
                 <span className="text-2xl">🚀</span>
               </div>
-              <h3 className="text-2xl font-bold text-white font-[Orbitron]">Current Role</h3>
+              <h3 className="text-2xl font-bold text-white font-[Outfit]">Current Role</h3>
             </div>
 
             <div className="border-l-4 border-cyan-500 pl-6">
@@ -170,7 +170,7 @@ const Home: React.FC = () => {
                 <span className="text-3xl">🤖</span>
               </div> */}
               <div>
-                <h2 className="text-4xl font-bold text-white font-[Orbitron] bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-fuchsia-500">
+                <h2 className="text-4xl font-bold text-white font-[Outfit] bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-fuchsia-500">
                   PROJECTS
                 </h2>
                 <p className="text-cyan-400 text-sm font-mono flex items-center gap-2 mt-1">
@@ -212,7 +212,7 @@ const Home: React.FC = () => {
       {/* Contact Section */}
       <section id="contact" className="container mx-auto px-6 py-20">
         <div className="max-w-2xl mx-auto glass p-8 rounded-2xl border border-slate-700">
-          <h2 className="text-3xl font-bold text-white mb-2 font-[Orbitron]">ESTABLISH UPLINK</h2>
+          <h2 className="text-3xl font-bold text-white mb-2 font-[Outfit]">ESTABLISH UPLINK</h2>
           <p className="text-slate-400 mb-8">Get in touch for collaborations and opportunities</p>
 
           <div className="space-y-6">
@@ -255,17 +255,17 @@ const Home: React.FC = () => {
         <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 text-center relative z-10">
           <div className="group hover:-translate-y-1 transition-transform duration-300">
             <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🤖</div>
-            <h3 className="text-xl font-bold text-white font-[Orbitron] mb-2 group-hover:text-cyan-400">AI Automation</h3>
+            <h3 className="text-xl font-bold text-white font-[Outfit] mb-2 group-hover:text-cyan-400">AI Automation</h3>
             <p className="text-slate-400 text-sm">Building intelligent systems with LLMs, Crew AI, and n8n.</p>
           </div>
           <div className="group hover:-translate-y-1 transition-transform duration-300">
             <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🧠</div>
-            <h3 className="text-xl font-bold text-white font-[Orbitron] mb-2 group-hover:text-fuchsia-400">Full Stack Development</h3>
+            <h3 className="text-xl font-bold text-white font-[Outfit] mb-2 group-hover:text-fuchsia-400">Full Stack Development</h3>
             <p className="text-slate-400 text-sm">React.js, FastAPI, MongoDB, and MySQL for scalable applications.</p>
           </div>
           <div className="group hover:-translate-y-1 transition-transform duration-300">
             <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">⚡</div>
-            <h3 className="text-xl font-bold text-white font-[Orbitron] mb-2 group-hover:text-purple-400">Data Analytics</h3>
+            <h3 className="text-xl font-bold text-white font-[Outfit] mb-2 group-hover:text-purple-400">Data Analytics</h3>
             <p className="text-slate-400 text-sm">HR analytics, web scraping, and data-driven insights.</p>
           </div>
         </div>

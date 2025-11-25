@@ -68,7 +68,7 @@ const ProjectCard: React.FC<Props> = ({ project }) => {
               )}
             </div>
           </div>
-          <h3 className="text-xl font-bold text-white font-[Orbitron] group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-cyan-400 group-hover:to-fuchsia-500 transition-colors">
+          <h3 className="text-xl font-bold text-white font-[Outfit] group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-cyan-400 group-hover:to-fuchsia-500 transition-colors">
             {project.title}
           </h3>
         </div>

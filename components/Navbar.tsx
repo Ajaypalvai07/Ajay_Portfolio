@@ -47,10 +47,10 @@ const Navbar: React.FC = () => {
           <div className="relative w-10 h-10">
             <div className="absolute inset-0 bg-cyan-500 rounded-lg blur opacity-50 group-hover:opacity-100 transition-opacity animate-pulse"></div>
             <div className="relative w-full h-full bg-slate-900 rounded-lg border border-cyan-500 flex items-center justify-center">
-              <span className="text-xl font-bold font-[Orbitron] text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-fuchsia-500">A</span>
+              <span className="text-xl font-bold font-[Outfit] text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-fuchsia-500">A</span>
             </div>
           </div>
-          <span className="text-2xl font-bold font-[Orbitron] tracking-wider text-white group-hover:text-cyan-400 transition-colors">
+          <span className="text-2xl font-bold font-[Outfit] tracking-wider text-white group-hover:text-cyan-400 transition-colors">
             Ajay<span className="text-fuchsia-500">Palvai</span>
           </span>
         </div>
@@ -66,7 +66,7 @@ const Navbar: React.FC = () => {
           <a
             href="/Ajay_palvai_res.pdf"
             download="Ajay_palvai_res.pdf"
-            className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white font-bold rounded-lg transition-all text-xs font-[Orbitron] shadow-lg hover:shadow-cyan-500/50"
+            className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white font-bold rounded-lg transition-all text-xs font-[Outfit] shadow-lg hover:shadow-cyan-500/50"
           >
             <span>📄</span>
             <span>RESUME</span>
@@ -116,7 +116,7 @@ const Navbar: React.FC = () => {
           <a
             href="/Ajay_palvai_res.pdf"
             download="Ajay_palvai_res.pdf"
-            className="flex items-center justify-center gap-2 px-4 py-3 bg-gradient-to-r from-cyan-600 to-blue-600 text-white font-bold rounded-lg font-[Orbitron]"
+            className="flex items-center justify-center gap-2 px-4 py-3 bg-gradient-to-r from-cyan-600 to-blue-600 text-white font-bold rounded-lg font-[Outfit]"
           >
             <span>📄</span>
             <span>DOWNLOAD RESUME</span>

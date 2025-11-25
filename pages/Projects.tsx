@@ -8,7 +8,7 @@ const Projects: React.FC = () => {
   return (
     <div className="pt-24 min-h-screen container mx-auto px-6 pb-20">
       <div className="mb-12">
-        <h2 className="text-4xl font-bold text-white mb-4 font-[Orbitron]">PROJECT MATRIX</h2>
+        <h2 className="text-4xl font-bold text-white mb-4 font-[Outfit]">PROJECT MATRIX</h2>
         <p className="text-slate-400 max-w-2xl">
           A collection of deployed systems. Interact with the cards to see AI-generated insights.
         </p>

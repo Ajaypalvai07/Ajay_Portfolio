@@ -50,7 +50,7 @@ const AIAssistant: React.FC = () => {
           <div className="p-3 bg-slate-800/80 border-b border-slate-700 flex justify-between items-center">
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse"></div>
-              <span className="text-sm font-bold text-cyan-400 font-[Orbitron]">AJAY'S ASSISTANT</span>
+              <span className="text-sm font-bold text-cyan-400 font-[Outfit]">AJAY'S ASSISTANT</span>
             </div>
             <button onClick={() => setIsOpen(false)} className="text-slate-400 hover:text-white">
               &times;
@@ -62,8 +62,8 @@ const AIAssistant: React.FC = () => {
             {messages.map((msg, idx) => (
               <div key={idx} className={`flex ${msg.role === Role.USER ? 'justify-end' : 'justify-start'}`}>
                 <div className={`max-w-[85%] p-3 rounded-lg text-xs md:text-sm ${msg.role === Role.USER
-                    ? 'bg-cyan-600 text-white rounded-tr-none'
-                    : 'bg-slate-700 text-slate-200 rounded-tl-none border border-slate-600'
+                  ? 'bg-cyan-600 text-white rounded-tr-none'
+                  : 'bg-slate-700 text-slate-200 rounded-tl-none border border-slate-600'
                   }`}>
                   <ReactMarkdown
                     remarkPlugins={[remarkGfm]}
