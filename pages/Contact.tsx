@@ -15,8 +15,8 @@ const Contact: React.FC = () => {
   return (
     <div className="pt-24 min-h-screen container mx-auto px-6 flex flex-col items-center">
       <div className="max-w-2xl w-full glass p-8 rounded-2xl border border-slate-700">
-        <h2 className="text-3xl font-bold text-white mb-2 font-[Orbitron]">ESTABLISH UPLINK</h2>
-        <p className="text-slate-400 mb-8">Send a message. My automated agents will categorize urgency and sentiment immediately.</p>
+        <h2 className="text-3xl font-bold text-white mb-2 font-[Orbitron]">ESTABLISH UPLINK (Connect)</h2>
+        <p className="text-slate-400 mb-8">Send a message</p>
 
         {status === 'sent' ? (
            <div className="bg-green-500/10 border border-green-500/50 text-green-400 p-6 rounded-lg text-center">
