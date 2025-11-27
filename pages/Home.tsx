@@ -259,13 +259,13 @@ const Home: React.FC = () => {
                 <div className="border-l-4 border-fuchsia-500 pl-6">
                   <h4 className="text-lg font-bold text-white">B.Tech in Computer Science (Data Science)</h4>
                   <p className="text-cyan-400">Mahatma Gandhi Institute of Technology – JNTUH</p>
-                  <p className="text-slate-400 text-sm">Graduated: July 2024 | CGPA: 7.49</p>
+                  <p className="text-slate-400 text-sm">CGPA: 7.49</p>
                 </div>
 
                 <div className="border-l-4 border-purple-500 pl-6">
                   <h4 className="text-lg font-bold text-white">Diploma in Computer Engineering</h4>
                   <p className="text-cyan-400">Bomma Institute of Technology and Science – SBTET</p>
-                  <p className="text-slate-400 text-sm">Graduated: May 2021 | CGPA: 7.84</p>
+                  <p className="text-slate-400 text-sm">CGPA: 7.84</p>
                 </div>
               </div>
             </div>
